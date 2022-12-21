@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-VERSION = '1.0'
+VERSION = '1.1'
 DESCRIPTION = "A simple example package"
 
 # Setting up
@@ -14,3 +14,7 @@ setup(
     packages=find_packages(),
     install_requires=['numpy'],  # add any additional packages that
 )
+
+
+if __name__ == '__main__':
+    print(find_packages())

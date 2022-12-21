@@ -1,1 +1,1 @@
-one_dir
+publish_example
